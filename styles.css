@@ -1,0 +1,48 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+input,
+textarea,
+select,
+button {
+  background-color: #17181c;
+  border-color: #575757;
+  color: #e8e7e3;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  margin: 0.5em auto auto auto;
+}
+
+.row {
+  display: inline-flex;
+  margin-top: 1em;
+}
+
+#numbersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 21em;
+}
+
+.numbers {
+  width: 2em;
+  border: 1px solid #707070;
+  border-radius: 1em;
+  text-align: center;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+
+.hit {
+  background-color: red;
+}
